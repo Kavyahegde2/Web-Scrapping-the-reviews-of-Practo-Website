@@ -13,7 +13,7 @@ Before running the script, ensure you have the following installed:
 - Chrome WebDriver
 
 You can install the required Python packages using pip:
-```bash pip install selenium beautifulsoup4 pandas```
+``` pip install selenium beautifulsoup4 pandas```
 
 ## Usage
 
@@ -23,7 +23,7 @@ You can install the required Python packages using pip:
 
 3. Run the script using the following command:
 
-```bash python hospital_reviews_scraper.py```
+``` python practo.py```
 
 4. After execution, the script will save the scraped data in an Excel file named `new-manipal-laser-dental-clinic-hsr-layout.xlsx` in the same directory.
 
