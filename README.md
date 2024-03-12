@@ -1,20 +1,22 @@
-# Web-Scrapping-the-reviews-of-Practo-Website
-Hospital Reviews Scraper
+# Hospital Reviews Scraper
+
 This Python script scrapes hospital reviews from the Practo website and stores them in an Excel sheet.
 
-Prerequisites
+## Prerequisites
+
 Before running the script, ensure you have the following installed:
 
-Python 3.x
-Selenium
-BeautifulSoup4
-Pandas
-Chrome WebDriver
+- Python 3.x
+- Selenium
+- BeautifulSoup4
+- Pandas
+- Chrome WebDriver
+
 You can install the required Python packages using pip:
 
-bash
-Copy code
+```bash
 pip install selenium beautifulsoup4 pandas
+
 Usage
 Download and install the Chrome WebDriver from here. Make sure to place the WebDriver executable in the specified path or update the chrome_driver_path variable in the script accordingly.
 
