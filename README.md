@@ -35,3 +35,4 @@ This script automates the process of scraping hospital reviews from the Practo w
 
 - Ensure that you have a stable internet connection while running the script to avoid interruptions during the scraping process.
 - Review the Practo website's terms of service and usage policy before scraping data. Avoid excessive requests to their servers to prevent being blocked.
+## For more steps refer the .txt file in this repository
