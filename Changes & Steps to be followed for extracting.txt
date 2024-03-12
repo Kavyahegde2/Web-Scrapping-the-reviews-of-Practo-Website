@@ -1,0 +1,18 @@
+Changes to be made for extracting
+
+Note: 
+1. Download the below model
+ 	pip install selenium
+	pip install beautifulsoup4
+	pip install pandas
+3. Extract the ChromeDriver Zip file present in this folder and copy the path where it is saved.
+2. Line 9 Change  "C:/Users/kavya/Downloads/chromedriver-win64 (2)/chromedriver.exe" this path based on your system where you have saved your chromeDriver.exe.
+
+
+
+Steps:
+	1. Line 14 Change URL for the required hospital review
+	2. Line 21 Change num_clicks value to required value ( To click "More" Button Required no of times based on the no of  Reviews present)
+	3. Line 85 Change the xlsx File name based on the hospital name
+	
+  	4. If any error while clicking more button Change the X.Path in Line 25 to "view_more_button = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div/div/div[2]/button")"
